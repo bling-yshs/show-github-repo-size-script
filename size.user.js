@@ -6,6 +6,7 @@
 // @version     0.0.4
 // @author      bling-yshs
 // @description 一个简单的油猴脚本，可以显示当前 Github 仓库的大小（暂不支持私人仓库）
+// @icon         https://github.githubassets.com/pinned-octocat.svg
 // @license     MIT
 // @homepageURL https://github.com/bling-yshs/show-github-repo-size-script
 // @downloadURL https://update.greasyfork.org/scripts/493368/%E6%98%BE%E7%A4%BA%20Github%20%E4%BB%93%E5%BA%93%E5%A4%A7%E5%B0%8F.user.js
