@@ -1,12 +1,15 @@
 // ==UserScript==
-// @name        显示 Github 存储库大小
+// @name        显示 Github 仓库大小
 // @namespace   Violentmonkey Scripts
 // @match       https://github.com/*
 // @grant       none
-// @version     0.0.1
+// @version     0.0.4
 // @author      bling-yshs
-// @description 显示 Github 存储库大小
+// @description 一个简单的油猴脚本，可以显示当前 Github 仓库的大小（暂不支持私人仓库）
 // @license     MIT
+// @homepageURL https://github.com/bling-yshs/show-github-repo-size-script
+// @downloadURL https://update.greasyfork.org/scripts/493368/%E6%98%BE%E7%A4%BA%20Github%20%E4%BB%93%E5%BA%93%E5%A4%A7%E5%B0%8F.user.js
+// @updateURL https://update.greasyfork.org/scripts/493368/%E6%98%BE%E7%A4%BA%20Github%20%E4%BB%93%E5%BA%93%E5%A4%A7%E5%B0%8F.meta.js
 // ==/UserScript==
 async function main() {
   const repoSize = await getRepoSize();
